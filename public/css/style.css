@@ -1,0 +1,266 @@
+body {
+  background-color: #111827;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar {
+  margin: 20px 40px;
+  padding: 0 72px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); */
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+.navbar-collapse {
+  gap: 30px;
+}
+
+.nav-link {
+  color: #9ca3af;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.btn {
+  background-color: #25d366;
+  border: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #25d366;
+  color: black;
+}
+
+.button-wa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 124px;
+  height: 42px;
+  background-color: #25d366;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.button-wa p {
+  margin: 0; /* Hilangkan margin bawaan agar sejajar */
+  line-height: 1; /* Biar teks nggak turun */
+}
+
+.button-dwn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 160px;
+  height: 42px;
+  background-color: #f1faee;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.button-dwn p {
+  margin: 0; /* Hilangkan margin bawaan agar sejajar */
+  line-height: 1; /* Biar teks nggak turun */
+}
+
+.button1 {
+  width: 100px;
+  display: flex;
+  place-items: center;
+}
+
+.container {
+  margin-top: 56px;
+  display: flex;
+  color: #9ca3af;
+}
+
+.text-content {
+  padding-right: 48px;
+}
+
+.title h1 {
+  color: #ffffff;
+  font-size: 64px;
+}
+
+.sub h4 {
+  font-size: 48px;
+}
+
+.paragraph p {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.location {
+  display: flex;
+  gap: 12px;
+}
+
+.location p {
+  margin: 0;
+  line-height: 1;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.status p {
+  margin: 0;
+  line-height: 1;
+}
+
+.icon-large {
+  margin: 0;
+  font-size: 32px;
+  color: #25d366;
+}
+
+.image-content img {
+  border-radius: 30px;
+  box-shadow: 10px 4px 10px rgba(10, 218, 204, 0.4);
+}
+
+.descr {
+  margin-top: 32px;
+}
+
+.cta {
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+  color: #111827;
+}
+
+.logo-stack {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: 24px auto;
+}
+
+.logo-box {
+  background-color: #1f2937; /* warna gelap seperti contoh (bisa diganti) */
+  padding: 8px;
+  border-radius: 8px; /* sudut membulat */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px; /* ukuran kotak, bisa disesuaikan */
+  height: 48px;
+}
+
+.logo {
+  width: 28px; /* ukuran ikon di dalamnya */
+  height: 28px;
+  object-fit: contain;
+}
+
+.logo-box:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  background-color: #374151;
+}
+
+.card {
+  width: 100%;
+  background-color: #1f2937;
+  color: #f1faee;
+}
+
+.title-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+small {
+  color: #f1faee;
+}
+
+.work {
+  margin: 24px auto;
+  display: block;
+}
+
+.projects {
+  display: block;
+}
+
+.project-card {
+  background-color: #1f2937; /* Bisa disesuaikan */
+  color: #f1faee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover; /* Biar gambar memenuhi frame tanpa distorsi */
+  display: block;
+}
+
+.project-content .badge {
+  background-color: #374151;
+}
+
+/* Reset flex di dalam section agar card vertikal */
+#experience {
+  display: block;
+}
+
+#experience .experience-list {
+  display: block;
+}
+
+/* Tambah jarak biar h2 dan card tidak sejajar */
+#experience h2 {
+  margin-bottom: 1rem;
+}
+
+#experience .card {
+  display: block;
+  width: 100%;
+}
+
+/* PROJECTS SECTION */
+#projects {
+  display: block;
+}
+
+#projects .project-list {
+  display: block;
+}
+
+#projects h2 {
+  margin-bottom: 1rem;
+}
+
+#projects .card {
+  display: block;
+  width: 100%;
+  border: none;
+  border-left: 4px solid #0d6efd;
+  transition: 0.2s;
+}
+
+#projects .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
